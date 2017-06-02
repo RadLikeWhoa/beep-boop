@@ -91,7 +91,9 @@ function scrollTo (element, target) {
 }
 
 $('map area').tooltipster({
-  theme: 'tooltipster-light'
+  theme: 'tooltipster-light',
+  trigger: 'click',
+  maxWidth: '320'
 })
 
 $('img[usemap]').rwdImageMaps()

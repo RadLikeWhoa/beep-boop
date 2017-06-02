@@ -367,3 +367,38 @@ header {
 .tooltip-templates {
   display: none;
 }
+
+area {
+  outline: none;
+}
+
+.tooltipster-box img {
+  margin-bottom: 1.5em;
+  width: 20em;
+  display: block;
+}
+
+.tooltipster-box {
+  background: #5e666e !important;
+  border: 2px solid #5e666e !important;
+}
+
+.tooltipster-arrow-border {
+  display: none !important;
+}
+
+.tooltipster-bottom .tooltipster-arrow-background {
+  border-bottom-color: #5e666e !important;
+}
+
+.tooltipster-top .tooltipster-arrow-background {
+  border-top-color: #5e666e !important;
+}
+
+.tooltipster-right .tooltipster-arrow-background {
+  border-right-color: #5e666e !important;
+}
+
+.tooltipster-left .tooltipster-arrow-background {
+  border-left-color: #5e666e !important;
+}
