@@ -90,8 +90,8 @@ function scrollTo (element, target) {
   raf = requestAnimationFrame(scroll)
 }
 
-$(document).ready(function(){
-  $('.right-elbow, .back-head, .left-underarm, .left-backhand').tooltipster({
-    theme: 'tooltipster-light'
-  });
-});
+$('map area').tooltipster({
+  theme: 'tooltipster-light'
+})
+
+$('img[usemap]').rwdImageMaps()
