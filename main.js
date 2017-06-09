@@ -104,6 +104,9 @@ $('#fullpage').fullpage({
   sectionsColor: ['#f5f5f5', '#5e666e', '#f5f5f5', '#5e666e'],
   scrollOverflow: true,
   menu: '#menu',
+  slidesNavigation: true,
+  navigation: true,
+  navigationPosition: 'right',
   allowPageScroll: true
 })
 
