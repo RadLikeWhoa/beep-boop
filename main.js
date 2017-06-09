@@ -92,6 +92,7 @@ function scrollTo (element, target) {
 
 $('map area').tooltipster({
   theme: 'tooltipster-light',
+  interactive: true,
   trigger: 'click',
   maxWidth: '320'
 })
