@@ -389,8 +389,12 @@ area {
 }
 
 .tooltipster-box {
-  background: #5e666e !important;
-  border: 2px solid #5e666e !important;
+  background: #f5f5f5 !important;
+  border: 2px solid #f5f5f5 !important;
+}
+
+.tooltipster-content {
+  color: #5e666e !important;
 }
 
 .tooltipster-arrow-border {
@@ -398,19 +402,19 @@ area {
 }
 
 .tooltipster-bottom .tooltipster-arrow-background {
-  border-bottom-color: #5e666e !important;
+  border-bottom-color: #f5f5f5 !important;
 }
 
 .tooltipster-top .tooltipster-arrow-background {
-  border-top-color: #5e666e !important;
+  border-top-color: #f5f5f5 !important;
 }
 
 .tooltipster-right .tooltipster-arrow-background {
-  border-right-color: #5e666e !important;
+  border-right-color: #f5f5f5 !important;
 }
 
 .tooltipster-left .tooltipster-arrow-background {
-  border-left-color: #5e666e !important;
+  border-left-color: #f5f5f5 !important;
 }
 
 .section-description {
