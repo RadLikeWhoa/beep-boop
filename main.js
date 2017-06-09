@@ -101,7 +101,7 @@ $('img[usemap]').rwdImageMaps()
 
 $('#fullpage').fullpage({
   anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
-  sectionsColor: ['#4A6FB1', '#939FAA', '#323539'],
+  sectionsColor: ['#f5f5f5', '#5e666e', '#f5f5f5', '#5e666e'],
   scrollOverflow: true,
   allowPageScroll: true
 })

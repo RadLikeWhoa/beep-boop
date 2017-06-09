@@ -199,6 +199,7 @@ header {
 
 .claim {
   font-size: 2.5em;
+  font-weight: bold;
   line-height: 1.2;
   padding: 70px 70px 20px 70px;
 }
@@ -427,4 +428,14 @@ area {
 .inner-list {
   margin-bottom: 0;
   padding: 0 50px;
+}
+
+.landing-page,
+.eternal-life {
+  color: #5e666e;
+}
+
+.cyborgs,
+.singularity {
+  color: #f5f5f5;
 }
