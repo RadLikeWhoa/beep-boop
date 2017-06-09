@@ -99,6 +99,13 @@ $('map area').tooltipster({
 
 $('img[usemap]').rwdImageMaps()
 
+$('#fullpage').fullpage({
+  anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+  sectionsColor: ['#4A6FB1', '#939FAA', '#323539'],
+  scrollOverflow: true,
+  allowPageScroll: true
+})
+
 Highcharts.chart('chart-demo', {
     title: {
         text: 'Solar Employment Growth by Sector, 2010-2016'
