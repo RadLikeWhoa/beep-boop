@@ -103,6 +103,7 @@ $('#fullpage').fullpage({
   anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
   sectionsColor: ['#f5f5f5', '#5e666e', '#f5f5f5', '#5e666e'],
   scrollOverflow: true,
+  menu: '#menu',
   allowPageScroll: true
 })
 
