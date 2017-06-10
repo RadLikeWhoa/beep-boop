@@ -107,6 +107,7 @@ $('#fullpage').fullpage({
   slidesNavigation: true,
   navigation: true,
   navigationPosition: 'right',
+  loopHorizontal: false,
   allowPageScroll: true
 })
 

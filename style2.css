@@ -439,8 +439,20 @@ area {
   padding: 0 70px 0 0;
 }
 
-.section-leading {
-  
+.list-imagetext {
+  padding: 0 70px 0 30px;
+}
+
+.not-last-p {
+  padding-bottom: 0px !important;
+}
+
+.last-image {
+  padding-bottom: 90px;
+}
+
+.last-figcaption {
+  padding-bottom: 90px;
 }
 
 .inner-list {

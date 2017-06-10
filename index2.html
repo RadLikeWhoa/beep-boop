@@ -193,7 +193,7 @@
         <figure>
           <img src="img/human-map.png" id="human-map" usemap="#humanMap" />
         </figure>
-        <figcaption>
+        <figcaption class="last-figcaption">
           Interactive human body map
         </figcaption>
         <map name="humanMap">
@@ -451,7 +451,7 @@
         <figure>
           <img src="img/cyborgs4-5.png" />
         </figure>
-        <figcaption>
+        <figcaption class="last-figcaption">
           fig. 5, Google Trends, retrieved 09.06.2017
         </figcaption>
       </div>
@@ -488,6 +488,379 @@
         <p class="section-description lead">
           Since on the web, the words <i>work</i> as well as <i>years</i> are viewed in a negative light, the assumption can be made that the subjects covered on the web are more difficult and time-consuming to realize.
         </p>
+      </div>
+
+      <div class="slide container">
+        <h1 class="claim">Condor Coolhunting</h1>
+        <p class="section-description lead">
+          Our research on <i>cyborgs</i> and <i>bodyhacking</i> was based on intense Condor Coolhunting studies. We analyzed the Experts (Web), the Swarm (Wikipedia) and the Crowd (Twitter). The results of the Coolhunting iterations were used for qualitative research on cyborgs and bodyhacking.
+        </p>
+      </div>
+
+      <div class="slide container">
+        <h1 class="claim">The Experts: Web Coolhunting</h1>
+        <p class="section-description lead">
+          We fetched six datasets using the Condor Web fetcher and different queries (marked in red in the picture below). Each dataset has up to 15 search results with a backlinking depth of 2. All datasets were merged into one combined dataset. In the following picture, you can see the collapsed graph of our Web Coolhunting. The nodes are sized by betweenness.
+        </p>
+        <figure>
+          <img src="img/chweb1.png" />
+        </figure>
+        <figcaption>
+          Web coolhunting combined
+        </figcaption>
+        <p class="section-description lead">
+          We exported the resulting dataset to Excel in order to analyse the strength of the different "brands":
+        </p>
+        <div class="row">
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chweb2.png" />
+            </figure>
+            <figcaption>
+              Betweenness Queries Web Fetcher
+            </figcaption>
+          </div>
+          <div class="col-md-6">
+            <p class="section-imagetext lead">
+              Cyborg is the strongest brand, followed by Neil Harbisson and Tim Cannon.
+            </p>
+            <p class="section-imagetext lead">
+              Side note: "Bodyhack" is very weak, because we had to remove many irrelevant websites from this dataset.
+            </p>
+            <p class="section-imagetext lead">
+              Remark: The results of the brand strength of the Web Coolhunting significantly differs from our results of Wiki Coolhunting.
+            </p>
+          </div>
+        </div>
+        <p class="section-description lead">
+          Also, we used Excel to create a top 30 website ranking. The websites are ranked by betweenness:
+        </p>
+        <figure>
+          <img src="img/chweb3.png" />
+        </figure>
+        <figcaption>
+          Condor website ranking by betweenness
+        </figcaption>
+        <p class="section-description lead">
+          You can see that Wikipedia is by far the most important website. Interesting findings are "Grindhouse Wetware", which was co-founded by Tim Cannon, and three different websites related to Neil Harbisson (harbisson.com, cyborgproject.com and cyborgfoundation.com). Also, Ray Kurzweil made it to the top 30. Furthermore, we could identify a cyborg conference named "BodyhackingCon".
+        </p>
+        <p class="section-description lead">
+          For our cyborg research, we also used websites that did not make it to the top 30: biohack.me (a forum and wiki about grinders) and cyborgs.cc (a German association based in Berlin).
+        </p>
+        <h3 class="section-subtitle">Web Coolhunting Datasets</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chweb4.png" />
+            </figure>
+          </div>
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chweb5.png" />
+            </figure>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chweb6.png" />
+            </figure>
+          </div>
+          <div class="col-md-6">
+            <figure class="last-image">
+              <img src="img/chweb7.png" />
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide container">
+        <h1 class="claim">The Swarm: Wikipedia Coolhunting</h1>
+        <p class="section-description lead">
+          We created a collapsed graph of the Wikipedia datasets:
+        </p>
+        <ul class="lead">
+          <li>
+            Transhumanism
+          </li>
+          <li>
+            Cyborg
+          </li>
+          <li>
+            Grinder
+          </li>
+          <li>
+            Kevin Warwick
+          </li>
+          <li>
+            Neil Harbisson
+          </li>
+          <li>
+            Tim Cannon
+          </li>
+        </ul>
+        <p class="section-description lead">
+          We also annotated the betweenness.
+        </p>
+        <figure>
+          <img src="img/chwiki1.png" />
+        </figure>
+        <div class="row">
+          <div class="col-md-6">
+            <p class="section-description not-last-p lead">
+              On Wikipedia, transhumanism is the strongest topic. It is followed by Kevin Warwick and the topic Cyborg. Neil Harbisson, Tim Cannon and the topic Grinder are significantly less important than the others. This is a very interesting finding, because it strongly differs from our findings of the Web Coolhunting. Also, the Wiki articles "Kevin Warwick", "Artificial Intelligence", "Transhumanism" and "Cyborg" have by far the highest betweeness (brown color). But why are all of them belonging to the dataset Cyborg?
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p class="section-imagetext lead">
+              Our hierarchy of importance of the Swarm (biggest to smallest):
+            </p>
+            <ol class="lead list-imagetext">
+              <li>
+                Transhumanism
+              </li>
+              <li>
+                Kevin Warwick
+              </li>
+              <li>
+                Cyborg
+              </li>
+              <li>
+                Neil Harbisson
+              </li>
+              <li>
+                Tim Cannon
+              </li>
+              <li>
+                Grinder
+              </li>
+            </ol>
+          </div>
+        </div>
+        <h3 class="section-subtitle">Wikipedia Datasets</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chwiki2.png" />
+            </figure>
+          </div>
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chwiki3.png" />
+            </figure>
+          </div>
+        </div>
+        <figure>
+          <img src="img/chwiki4.png" />
+        </figure>
+        <figcaption>
+          Wikipedia articles related to Kevin Warwick ranked by betweenness
+        </figcaption>
+        <div class="row">
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chwiki5.png" />
+            </figure>
+            <figcaption>
+              Findings: Moon Ribas, Neil Harbisson, Kevin Warwick
+            </figcaption>
+          </div>
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chwiki6.png" />
+            </figure>
+            <figcaption>
+              Finding: Cyborg Foundation
+            </figcaption>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chwiki7.png" />
+            </figure>
+          </div>
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chwiki8.png" />
+            </figure>
+            <figcaption>
+              Finding: Grindhouse Wetware
+            </figcaption>
+          </div>
+        </div>
+        <h3 class="section-subtitle">Wiki Summary</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <p class="section-description lead">
+              Betweenness diagram
+            </p>
+            <figure>
+              <img src="img/chwiki9.png" />
+            </figure>
+          </div>
+          <div class="col-md-6">
+            <p class="section-description lead">
+              Word cloud of merged Wiki datasets: "It's all about technology"
+            </p>
+            <figure>
+              <img src="img/chwiki11.png" />
+            </figure>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chwiki10.png" />
+            </figure>
+            <figcaption>
+              We used the Wiki category fetcher to get a basic overview about the topic "transhumanism"
+            </figcaption>
+          </div>
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chwiki12.png" />
+            </figure>
+            <figcaption class="last-figcaption">
+              We also used the Wikipedia category fetcher to identify some key people.
+            </figcaption>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide container">
+        <h1 class="claim">The Crowd: Twitter Coolhunting</h1>
+        <p class="section-description lead">
+          We searched for the Twitter accounts of Neil Harbisson and Tim Cannon. We also searched for the hashtags #cyborg and #transhumanism on Twitter.  Unfortunately, Kevin Warwick does not have a Twitter account. All datasets were created by using the Condor Twitter and Twitter account fetcher.
+        </p>
+        <h3 class="section-subtitle">Neil Harbisson</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chtwitter1.png" />
+            </figure>
+            <figcaption>
+              Activity diagram of Neil Harbisson
+            </figcaption>
+          </div>
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chtwitter2.png" />
+            </figure>
+            <figcaption>
+              Activity, sentiment, emotionality and complexity of Neil Harbisson's tweets
+            </figcaption>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chtwitter3.png" />
+            </figure>
+            <figcaption>
+              Neil Harbisson word cloud. In general: very positive sentiment. Exception: his implanted antenna.
+            </figcaption>
+          </div>
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chtwitter4.png" />
+            </figure>
+            <figcaption>
+              Last 7 days using the Condor Twitter fetcher
+            </figcaption>
+          </div>
+        </div>
+        <h3 class="section-subtitle">Tim Cannon</h3>
+        <p class="section-description lead">
+          He is the co-founder of Grindhouse Wetware
+        </p>
+        <div class="row">
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chtwitter5.png" />
+            </figure>
+            <figcaption>
+              Activity diagram of Tim Cannon
+            </figcaption>
+          </div>
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chtwitter6.png" />
+            </figure>
+            <figcaption>
+              Activity, sentiment, emotionality and complexity of Tim Cannon's tweets
+            </figcaption>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chtwitter7.png" />
+            </figure>
+            <figcaption>
+              Word cloud of Tim Cannon's tweets. Interesting: many negative terms like implant and grinder. Positive sentiment for cyborg and biohacking
+            </figcaption>
+          </div>
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chtwitter8.png" />
+            </figure>
+            <figcaption>
+              Last 7 days using the condor Twitter fetcher
+            </figcaption>
+          </div>
+        </div>
+
+        <h3 class="section-subtitle">#Hashtags on Twitter</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chtwitter9.png" />
+            </figure>
+            <figcaption>
+              Last 7 days for #cyborg
+            </figcaption>
+          </div>
+          <div class="col-md-6">
+            <figure>
+              <img src="img/chtwitter10.png" />
+            </figure>
+            <figcaption>
+              Last 7 days for #transhumanism
+            </figcaption>
+          </div>
+        </div>
+
+        <h3 class="section-subtitle">Twitter Summary</h3>
+        <figure>
+          <img src="img/chtwitter11.png" />
+        </figure>
+        <figcaption>
+          Merged dataset of our Twitter coolhunting datasets (betweenness annotated).
+        </figcaption>
+        <p class="section-description lead">
+          Ranking (most important to least important):
+        </p>
+        <ul class="lead">
+          <li>
+            #cyborg
+          </li>
+          <li>
+            #transhumanism
+          </li>
+          <li>
+            Neil Harbisson
+          </li>
+          <li>
+            Tim Cannon
+          </li>
+        </ul>
+        <figure>
+          <img src="img/chtwitter12.png" />
+        </figure>
+        <figcaption class="last-figcaption">
+          Twitter world map for the merged dataset
+        </figcaption>
       </div>
     </div>
 
