@@ -262,3 +262,7 @@ area {
   margin: -6px 0 0 -6px;
   border: 1px solid #5e666e;
 }
+
+.individual {
+  margin: 0 8em;
+}
