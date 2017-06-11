@@ -11,10 +11,10 @@
 </head>
 <body>
   <ul id="menu">
-    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Home</a></li>
-    <li data-menuanchor="secondPage"><a href="#secondPage">Cyborgs</a></li>
-    <li data-menuanchor="3rdPage"><a href="#3rdPage">Eternal Life</a></li>
-    <li data-menuanchor="4thPage"><a href="#4thPage">Singularity</a></li>
+    <li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
+    <li data-menuanchor="cyborgs"><a href="#cyborgs">Cyborgs</a></li>
+    <li data-menuanchor="eternal-life"><a href="#eternal-life">Eternal Life</a></li>
+    <li data-menuanchor="singularity"><a href="#singularity">Singularity</a></li>
   </ul>
   <div id="fullpage">
     <div class="section landing-page">
@@ -44,7 +44,7 @@
           – based on the definition of <a href="https://cyborgs.cc/?page_id=243">Cyborgs e.V.</a>
         </p>
         <p class="section-description lead">
-          <b>Eternal Life</b> describes the strive for immortality. With today's technology and level of knowledge there are already possibilities to prolong human life significantly (e.g. by exchanging old with new blood) or even indefinitely (<a href="#3rdPage">studies by Pearson, Kurzweil and Aubrey de Grey</a>).
+          <b>Eternal Life</b> describes the strive for immortality. With today's technology and level of knowledge there are already possibilities to prolong human life significantly (e.g. by exchanging old with new blood) or even indefinitely (<a href="#eternal-life">studies by Pearson, Kurzweil and Aubrey de Grey</a>).
         </p>
         <p class="section-description lead">
           The term <b>Singularity</b> is used to denominate the point in time from which machines and algorithms can rapidly improve themselves using artificial intelligence (AI). This would accelerate technological progress exponentially, making the future of mankind beyond this point unpredictable. Some exponents of the field assume that the associated technological leaps will significantly prolong the human lifespan or even lead to biological immortality. It could also become possible to separate human consciousness from its biological carrier and port it into a completely artificial shell.
@@ -1048,8 +1048,8 @@
     $('img[usemap]').rwdImageMaps()
 
     $('#fullpage').fullpage({
-      anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
-      sectionsColor: ['#f5f5f5', '#5e666e', '#f5f5f5', '#5e666e'],
+      anchors: [ 'home', 'cyborgs', 'eternal-life', 'singularity' ],
+      sectionsColor: [ '#f5f5f5', '#5e666e', '#f5f5f5', '#5e666e' ],
       scrollOverflow: true,
       menu: '#menu',
       slidesNavigation: true,
