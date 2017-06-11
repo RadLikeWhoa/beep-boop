@@ -952,21 +952,9 @@
     </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="js/lib/tooltipster.bundle.min.js"></script>
-  <script src="js/lib/bootstrap.min.js"></script>
   <script src="js/lib/scrolloverflow.js"></script>
   <script src="js/lib/jquery.fullPage.js"></script>
-  <script src="js/lib/resizer.js"></script>
   <script>
-    $('map area').tooltipster({
-      theme: 'tooltipster-light',
-      interactive: true,
-      trigger: 'click',
-      maxWidth: '320'
-    })
-
-    $('img[usemap]').rwdImageMaps()
-
     $('#fullpage').fullpage({
       anchors: [ 'home', 'cyborgs', 'eternal-life', 'singularity' ],
       sectionsColor: [ '#5e666e', '#f5f5f5', '#5e666e', '#f5f5f5' ],
@@ -978,6 +966,23 @@
       loopHorizontal: false,
       allowPageScroll: true
     })
+  </script>
+  <script src="js/lib/tooltipster.bundle.min.js"></script>
+  <script src="js/lib/bootstrap.min.js"></script>
+  <script src="js/lib/resizer.js"></script>
+  <script>
+    $('map area').tooltipster({
+      theme: 'tooltipster-light',
+      interactive: true,
+      trigger: 'click',
+      maxWidth: '320'
+    })
+
+    $('img[usemap]').rwdImageMaps()
+
+    setTimeout(function () {
+      $(window).trigger('resize')
+    }, 100)
   </script>
 </body>
 </html>
