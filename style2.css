@@ -447,6 +447,10 @@ area {
   padding-bottom: 0px !important;
 }
 
+.human-map {
+  padding: 0 200px;
+}
+
 .last-image {
   padding-bottom: 90px;
 }
