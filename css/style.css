@@ -277,5 +277,9 @@ area {
 }
 
 .individual {
-  margin: 0 8em;
+  margin: 6em 8em;
+}
+
+.fp-scroller .individual {
+  margin: 0;
 }
